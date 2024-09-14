@@ -12,7 +12,7 @@
           <input type="number" v-model="amount" />
         </div>
         <div class="field">
-          <label>description</label>
+          <label>Description</label>
           <textarea rows="4" type="text" v-model="description"> </textarea>
         </div>
         <div class="field">

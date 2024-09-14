@@ -4,7 +4,7 @@
       <HeaderApp />
     </template>
     <template #resume>
-      <ResumeApp :label="'Ahorro total'" :amount="amount" :totalAmount="totalAmount">
+      <ResumeApp :label="'Ahorro Total'" :amount="amount" :totalAmount="totalAmount">
         <template #graphic>
           <GraphicResume :amounts="amounts" @select="select" />
         </template>
